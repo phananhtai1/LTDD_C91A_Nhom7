@@ -1,0 +1,66 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.android.foodorderapp"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="24"
+8-->D:\LTAndroid\LTDD_C91A_Nhom7\FoodOrderApp\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->D:\LTAndroid\LTDD_C91A_Nhom7\FoodOrderApp\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->D:\LTAndroid\LTDD_C91A_Nhom7\FoodOrderApp\app\src\main\AndroidManifest.xml:5:5-67
+11-->D:\LTAndroid\LTDD_C91A_Nhom7\FoodOrderApp\app\src\main\AndroidManifest.xml:5:22-64
+12
+13    <application
+13-->D:\LTAndroid\LTDD_C91A_Nhom7\FoodOrderApp\app\src\main\AndroidManifest.xml:7:5-26:19
+14        android:allowBackup="true"
+14-->D:\LTAndroid\LTDD_C91A_Nhom7\FoodOrderApp\app\src\main\AndroidManifest.xml:9:9-35
+15        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+15-->[androidx.core:core:1.3.1] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\8dbd859d1cd89239b42e7382b4fc40d7\core-1.3.1\AndroidManifest.xml:24:18-86
+16        android:debuggable="true"
+17        android:extractNativeLibs="false"
+18        android:icon="@mipmap/ic_launcher"
+18-->D:\LTAndroid\LTDD_C91A_Nhom7\FoodOrderApp\app\src\main\AndroidManifest.xml:10:9-43
+19        android:label="@string/app_name"
+19-->D:\LTAndroid\LTDD_C91A_Nhom7\FoodOrderApp\app\src\main\AndroidManifest.xml:11:9-41
+20        android:roundIcon="@mipmap/ic_launcher_round"
+20-->D:\LTAndroid\LTDD_C91A_Nhom7\FoodOrderApp\app\src\main\AndroidManifest.xml:12:9-54
+21        android:supportsRtl="true"
+21-->D:\LTAndroid\LTDD_C91A_Nhom7\FoodOrderApp\app\src\main\AndroidManifest.xml:13:9-35
+22        android:testOnly="true"
+23        android:theme="@style/Theme.FoodOrderApp"
+23-->D:\LTAndroid\LTDD_C91A_Nhom7\FoodOrderApp\app\src\main\AndroidManifest.xml:14:9-50
+24        android:usesCleartextTraffic="true" >
+24-->D:\LTAndroid\LTDD_C91A_Nhom7\FoodOrderApp\app\src\main\AndroidManifest.xml:8:9-44
+25        <activity android:name="com.android.foodorderapp.OrderSucceessActivity" />
+25-->D:\LTAndroid\LTDD_C91A_Nhom7\FoodOrderApp\app\src\main\AndroidManifest.xml:15:9-68
+25-->D:\LTAndroid\LTDD_C91A_Nhom7\FoodOrderApp\app\src\main\AndroidManifest.xml:15:19-56
+26        <activity android:name="com.android.foodorderapp.PlaceYourOrderActivity" />
+26-->D:\LTAndroid\LTDD_C91A_Nhom7\FoodOrderApp\app\src\main\AndroidManifest.xml:16:9-60
+26-->D:\LTAndroid\LTDD_C91A_Nhom7\FoodOrderApp\app\src\main\AndroidManifest.xml:16:19-57
+27        <activity android:name="com.android.foodorderapp.RestaurantMenuActivity" />
+27-->D:\LTAndroid\LTDD_C91A_Nhom7\FoodOrderApp\app\src\main\AndroidManifest.xml:17:9-60
+27-->D:\LTAndroid\LTDD_C91A_Nhom7\FoodOrderApp\app\src\main\AndroidManifest.xml:17:19-57
+28        <activity android:name="com.android.foodorderapp.SplashActivity" >
+28-->D:\LTAndroid\LTDD_C91A_Nhom7\FoodOrderApp\app\src\main\AndroidManifest.xml:18:9-24:20
+28-->D:\LTAndroid\LTDD_C91A_Nhom7\FoodOrderApp\app\src\main\AndroidManifest.xml:18:19-49
+29            <intent-filter>
+29-->D:\LTAndroid\LTDD_C91A_Nhom7\FoodOrderApp\app\src\main\AndroidManifest.xml:19:13-23:29
+30                <action android:name="android.intent.action.MAIN" />
+30-->D:\LTAndroid\LTDD_C91A_Nhom7\FoodOrderApp\app\src\main\AndroidManifest.xml:20:17-69
+30-->D:\LTAndroid\LTDD_C91A_Nhom7\FoodOrderApp\app\src\main\AndroidManifest.xml:20:25-66
+31
+32                <category android:name="android.intent.category.LAUNCHER" />
+32-->D:\LTAndroid\LTDD_C91A_Nhom7\FoodOrderApp\app\src\main\AndroidManifest.xml:22:17-77
+32-->D:\LTAndroid\LTDD_C91A_Nhom7\FoodOrderApp\app\src\main\AndroidManifest.xml:22:27-74
+33            </intent-filter>
+34        </activity>
+35        <activity android:name="com.android.foodorderapp.MainActivity" />
+35-->D:\LTAndroid\LTDD_C91A_Nhom7\FoodOrderApp\app\src\main\AndroidManifest.xml:25:9-50
+35-->D:\LTAndroid\LTDD_C91A_Nhom7\FoodOrderApp\app\src\main\AndroidManifest.xml:25:19-47
+36    </application>
+37
+38</manifest>
